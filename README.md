@@ -7,13 +7,10 @@ The documentation will be available following this pattern:
 
 https//:[github-handle].github.io/[repository]
 
-(e.g. https://lotharschulz.github.io/sphinx-pages/)
+(e.g. https://livingthingsnow.github.io/sphinx-sample/)
 
-Github.com enables pages automatically if a _gh-pages_ branch exists:
-<kbd>![gh-pages recognition](/pages-created-from-gh-pages-branch.png)</kbd>
 
 ## Preconditions
-
 - git repository exists in current directory
 - sphinx files are part of master branch
 - git remote is defined
@@ -45,5 +42,6 @@ sphinx-build -b html . _build
 sphinx-autobuild . _build --open-browser # opens built docs in browser
 ```
 
-### Blog Post
+### Reference
 - https://www.lotharschulz.info/2017/12/11/sphinx-gh-pages/
+- https://github.com/lotharschulz/sphinx-pages
